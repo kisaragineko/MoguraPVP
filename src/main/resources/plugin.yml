@@ -1,0 +1,13 @@
+name: MoguraPVP
+version: '${project.version}'
+main: ki3ragi.xyz.untitled.MoguraPVP
+api-version: 1.19
+commands:
+  start:
+    description: Start the battle
+    usage: /start
+
+permissions:
+  mogurapvp.start:
+    description: Allows players to start the battle
+    default: op
